@@ -10,6 +10,14 @@ transações e permissões.
 > arquitetura técnica refletem um projeto real desenvolvido no trabalho, em
 > parceria com um colega de equipe.
 
+## 🚧 Status do projeto
+
+Atualmente o padrão está implementado para dois sistemas (Sistema A e
+Sistema B, abaixo) e **em desenvolvimento contínuo para os demais sistemas
+da organização**, cada um recebendo sua própria procedure adaptada às
+regras de nomenclatura e ao catálogo daquele sistema, seguindo a mesma
+arquitetura de base.
+
 ## 🧭 O que esse projeto resolve
 
 A empresa opera mais de um sistema, mas todos compartilham o mesmo "banco
@@ -105,12 +113,15 @@ banco de demonstração:
 ## 🔭 Possíveis evoluções
 
 - Extrair a lógica comum das duas procedures para uma procedure "base",
-  parametrizando apenas o que muda entre os sistemas;
-- Mover a geração de prefixo para uma tabela de configuração por sistema.
+  parametrizando apenas o que muda entre os sistemas — tendência natural à
+  medida que mais sistemas passam a usar o padrão;
+- Mover a geração de prefixo para uma tabela de configuração por sistema;
+- Documentar, neste README, cada novo sistema à medida que for incorporado
+  ao padrão.
 
 ## 👥 Autoria
 
-Projeto desenvolvido em colaboração por **Nayra Zanini** e **Bruno Guida**.
+Projeto desenvolvido por **Náyra Zanini** em colaboração de **Bruno Guida**.
 
 ## 📄 Licença
 
