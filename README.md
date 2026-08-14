@@ -110,7 +110,7 @@ O restante da regra é igual para todos os sistemas:
 
 ## 👥 Autoria
 
-Projeto desenvolvido em colaboração por **Nayra Zanini** e **Bruno Guida**.
+Projeto desenvolvido por **Nayra Zanini** em colaboração de **Bruno Guida**.
 
 ## 📄 Licença
 
